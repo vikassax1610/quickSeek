@@ -8,8 +8,13 @@ function Navbar({ darkTheme, setDarkTheme }) {
       <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b-2 dark:border-gray-700 border-gray-200">
         <div className="flex justify-between items-center space-x-5 w-screen">
           <Link to="/">
-            <p className="text-2xl bg-blue-500 text-white font-bold px-1 py-1 rounded-lg dark:bg-gray-500 dark:text-gray-900">
-              quickSeek 🔎
+            <p className="text-2xl bg-blue-500 text-white font-bold px-1 py-1 rounded-lg tracking-wider dark:bg-gray-500 dark:text-gray-900 ">
+              Quickseek
+              <img
+                src="/logo.svg"
+                alt="Logo"
+                className="w-10 h-9 inline rounded-full px-0 pb-1"
+              />
             </p>
           </Link>
           <button
